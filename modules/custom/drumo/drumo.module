@@ -1,0 +1,33 @@
+<?php
+
+/**
+ * @file
+ * Contains drumo.module..
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function drumo_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the drumo module.
+    case 'help.page.drumo':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Build Mobile Apps with Drumo') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function drumo_theme() {
+  $theme = [];
+
+  return $theme;
+}

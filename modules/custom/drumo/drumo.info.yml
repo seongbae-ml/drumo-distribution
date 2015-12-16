@@ -1,0 +1,5 @@
+name: 'Drumo'
+type: module
+description: Build Mobile Apps with Drumo
+core: 8.x
+package: Other

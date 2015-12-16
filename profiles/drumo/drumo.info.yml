@@ -40,7 +40,6 @@ dependencies:
   - automated_cron
   - restui
   - devel
-  - address
 themes:
   - bartik
   - seven
